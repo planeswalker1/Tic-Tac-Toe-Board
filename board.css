@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+}
+
+/*added border to left and right of middle column*/
+tr td:nth-of-type(even) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+/*added border to top and bottom of middle row*/
+
+tr:nth-child(2) td {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
